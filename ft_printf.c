@@ -6,7 +6,7 @@
 /*   By: edpaulin <edpaulin@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/07 18:41:21 by edpaulin          #+#    #+#             */
-/*   Updated: 2021/10/07 18:42:11 by edpaulin         ###   ########.fr       */
+/*   Updated: 2021/10/10 16:51:18 by edpaulin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	ft_vprintf(va_list ap, char *format)
 	return (len);
 }
 
-int	ft_printf(char	*format, ...)
+int	ft_printf(const char	*format, ...)
 {
 	va_list	ap;
 	int		len;

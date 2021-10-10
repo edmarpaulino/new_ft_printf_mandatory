@@ -6,7 +6,7 @@
 /*   By: edpaulin <edpaulin@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/07 18:41:04 by edpaulin          #+#    #+#             */
-/*   Updated: 2021/10/07 18:44:08 by edpaulin         ###   ########.fr       */
+/*   Updated: 2021/10/10 16:51:30 by edpaulin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 
-int		ft_printf(char	*format, ...);
+int		ft_printf(const char	*format, ...);
 int		ft_vprintf(va_list ap, char *format);
 int		ft_type(va_list ap, char type);
 
